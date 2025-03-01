@@ -30,27 +30,27 @@ namespace CombinedProgram
 
                 // Boolean Conversion
                 if (bool.TryParse(input, out bool boolValue))
-                    Console.WriteLine($"✅ Boolean: {boolValue}");
+                    Console.WriteLine($"Boolean: {boolValue}");
                 else
-                    Console.WriteLine("❌ Invalid boolean format.");
+                    Console.WriteLine("Invalid boolean format.");
 
                 // DateTime Conversion
                 if (DateTime.TryParse(input, out DateTime dateTimeValue))
-                    Console.WriteLine($"✅ DateTime: {dateTimeValue}");
+                    Console.WriteLine($"DateTime: {dateTimeValue}");
                 else
-                    Console.WriteLine("❌ Invalid DateTime format.");
+                    Console.WriteLine("Invalid DateTime format.");
 
                 // Double Conversion
                 if (double.TryParse(input, out double doubleValue))
-                    Console.WriteLine($"✅ Double: {doubleValue}");
+                    Console.WriteLine($"Double: {doubleValue}");
                 else
-                    Console.WriteLine("❌ Invalid double format.");
+                    Console.WriteLine("Invalid double format.");
 
                 // Decimal Conversion
                 if (decimal.TryParse(input, out decimal decimalValue))
-                    Console.WriteLine($"✅ Decimal: {decimalValue}");
+                    Console.WriteLine($"Decimal: {decimalValue}");
                 else
-                    Console.WriteLine("❌ Invalid decimal format.");
+                    Console.WriteLine("Invalid decimal format.");
 
                 Console.WriteLine("----------------------");
 
